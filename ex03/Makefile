@@ -1,6 +1,6 @@
 FLAGS=-Wall -g
 
 clean:
-	rm -f ex2
+	rm -f ex3
 
-all: ex02
+all: ex03
