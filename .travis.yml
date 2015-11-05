@@ -1,0 +1,9 @@
+sudo: false
+language: c
+
+addons:
+  apt:
+    packages: valgrind
+
+before_script: make all
+script: make test
